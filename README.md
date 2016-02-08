@@ -1,7 +1,7 @@
 battwitter
 =============
 
-![コウモリ](/images/bat-icon.png)
+![コウモリ](/assets/dest/images/bat-icon.png)
 
 ## 環境
 
