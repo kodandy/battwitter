@@ -8,3 +8,9 @@ battwitter
 node v5.1.1
 
 `gulp`でlocalhost:3000にサーバー。
+
+`$ rails s`でサーバー立ち上げ。
+
+`$ rake db:migrate`
+`/.env`に、BATTWITTER_DATABASE_USERNAME / BATTWITTER_DATABASE_PASSWORDに変数設定する（カンマなし）
+
