@@ -12,5 +12,4 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jade/runtime
 //= require_tree .

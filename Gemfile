@@ -12,10 +12,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'bcrypt', '~> 3.1.7'
 # gem 'unicorn'
 # gem 'capistrano-rails', group: :development
-gem 'jade-rails', github: 'hendrauzia/jade-rails', branch: 'rails-4-2-5'
 gem 'stylus'
-gem 'ejs'
 gem 'gon'
+gem 'slim-rails'
 
 group :development, :test do
   gem 'byebug'

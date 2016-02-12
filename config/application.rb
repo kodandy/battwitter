@@ -29,13 +29,8 @@ module Battwitter
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
-    config.jade do |j|
-      j.pretty = true
-      j.compile_debug = true
-      j.globals = ['helpers']
-    end
-
     config.generators do |g|
+      g.template_engine = :slim
       g.helper false
       g.stylesheets false
       g.javascripts false
