@@ -14,3 +14,4 @@ node v5.1.1
 `$ rake db:migrate`
 `/.env`に、BATTWITTER_DATABASE_USERNAME / BATTWITTER_DATABASE_PASSWORDに変数設定する（カンマなし）
 
+`rbenv exec bundle exec foreman start`でrailsアプリとnpm startを同時に実行

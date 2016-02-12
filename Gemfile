@@ -15,6 +15,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'stylus'
 gem 'gon'
 gem 'slim-rails'
+gem 'foreman'
 
 group :development, :test do
   gem 'byebug'
